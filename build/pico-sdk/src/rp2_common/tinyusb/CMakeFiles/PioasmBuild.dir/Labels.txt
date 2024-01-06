@@ -1,13 +1,13 @@
 # Target labels
  PioasmBuild
 # Source files and their labels
-/Users/josefvagner/Documents/CRS/rpi_lora/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild
-/Users/josefvagner/Documents/CRS/rpi_lora/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.rule
-/Users/josefvagner/Documents/CRS/rpi_lora/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild-complete.rule
-/Users/josefvagner/Documents/CRS/rpi_lora/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule
-/Users/josefvagner/Documents/CRS/rpi_lora/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule
-/Users/josefvagner/Documents/CRS/rpi_lora/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule
-/Users/josefvagner/Documents/CRS/rpi_lora/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule
-/Users/josefvagner/Documents/CRS/rpi_lora/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule
-/Users/josefvagner/Documents/CRS/rpi_lora/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule
-/Users/josefvagner/Documents/CRS/rpi_lora/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule
+/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild
+/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.rule
+/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild-complete.rule
+/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule
+/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule
+/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule
+/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule
+/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule
+/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule
+/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule

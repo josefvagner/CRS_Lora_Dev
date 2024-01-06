@@ -39,12 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/josefvagner/Documents/CRS/rpi_lora/build/FREERTOS_KERNEL/cmake_install.cmake")
+  include("/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/FREERTOS_KERNEL/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/josefvagner/Documents/CRS/rpi_lora/build/pico-sdk/cmake_install.cmake")
+  include("/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pico-sdk/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/josefvagner/Documents/CRS/rpi_lora/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

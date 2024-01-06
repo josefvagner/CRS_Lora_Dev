@@ -1,3 +1,3 @@
-/Users/josefvagner/Documents/CRS/rpi_lora/build/pioasm/CMakeFiles/pioasm.dir
-/Users/josefvagner/Documents/CRS/rpi_lora/build/pioasm/CMakeFiles/edit_cache.dir
-/Users/josefvagner/Documents/CRS/rpi_lora/build/pioasm/CMakeFiles/rebuild_cache.dir
+/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pioasm/CMakeFiles/pioasm.dir
+/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pioasm/CMakeFiles/edit_cache.dir
+/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pioasm/CMakeFiles/rebuild_cache.dir

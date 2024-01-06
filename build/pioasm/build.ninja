@@ -34,7 +34,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/josefvagner/Documents/CRS/rpi_lora/build/pioasm/
+cmake_ninja_workdir = /Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pioasm/
 # =============================================================================
 # Object build statements for EXECUTABLE target pioasm
 
@@ -147,7 +147,7 @@ build pioasm: CXX_EXECUTABLE_LINKER__pioasm_ CMakeFiles/pioasm.dir/main.cpp.o CM
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/josefvagner/Documents/CRS/rpi_lora/build/pioasm && /opt/homebrew/Cellar/cmake/3.28.1/bin/ccmake -S/Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/tools/pioasm -B/Users/josefvagner/Documents/CRS/rpi_lora/build/pioasm
+  COMMAND = cd /Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pioasm && /opt/homebrew/Cellar/cmake/3.28.1/bin/ccmake -S/Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/tools/pioasm -B/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pioasm
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -159,7 +159,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/josefvagner/Documents/CRS/rpi_lora/build/pioasm && /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake --regenerate-during-build -S/Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/tools/pioasm -B/Users/josefvagner/Documents/CRS/rpi_lora/build/pioasm
+  COMMAND = cd /Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pioasm && /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake --regenerate-during-build -S/Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/tools/pioasm -B/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pioasm
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -175,7 +175,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /Users/josefvagner/Documents/CRS/rpi_lora/build/pioasm
+# Folder: /Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pioasm
 
 build all: phony pioasm
 

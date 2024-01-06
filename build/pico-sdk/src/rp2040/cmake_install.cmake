@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/josefvagner/Documents/CRS/rpi_lora/build/pico-sdk/src/rp2040/hardware_regs/cmake_install.cmake")
-  include("/Users/josefvagner/Documents/CRS/rpi_lora/build/pico-sdk/src/rp2040/hardware_structs/cmake_install.cmake")
+  include("/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pico-sdk/src/rp2040/hardware_regs/cmake_install.cmake")
+  include("/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pico-sdk/src/rp2040/hardware_structs/cmake_install.cmake")
 
 endif()
 

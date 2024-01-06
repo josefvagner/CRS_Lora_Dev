@@ -68,9 +68,9 @@ LOAD linker stubs
  .debug_line    0x00000000       0xed pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj
 
 .debug_line_str
-                0x00000000      0x12a
+                0x00000000      0x12e
  .debug_line_str
-                0x00000000      0x12a pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj
+                0x00000000      0x12e pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj
 
 .debug_info     0x00000000       0x25
  .debug_info    0x00000000       0x25 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj
@@ -82,5 +82,5 @@ LOAD linker stubs
  .debug_aranges
                 0x00000000       0x20 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj
 
-.debug_str      0x00000000       0x9c
- .debug_str     0x00000000       0x9c pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj
+.debug_str      0x00000000       0xa0
+ .debug_str     0x00000000       0xa0 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj

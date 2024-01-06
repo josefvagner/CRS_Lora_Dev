@@ -195,7 +195,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/josefvagner/Documents/CRS/rpi_lora/build"
+			"value" : "/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -279,10 +279,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "/opt/homebrew/bin/arm-none-eabi-g++"
 		},
 		{
@@ -407,10 +407,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "/opt/homebrew/bin/arm-none-eabi-gcc"
 		},
 		{
@@ -679,7 +679,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/josefvagner/Documents/CRS/rpi_lora/build/CMakeFiles/pkgRedirects"
+			"value" : "/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -1359,7 +1359,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/josefvagner/Documents/CRS/rpi_lora/build/FREERTOS_KERNEL"
+			"value" : "/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/FREERTOS_KERNEL"
 		},
 		{
 			"name" : "FreeRTOS-Kernel_IS_TOP_LEVEL",
@@ -1539,7 +1539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " /Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/src/rp2_common/cmsis /Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/src/rp2040/hardware_regs"
+			"value" : " /Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/src/rp2_common/cmsis /Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/src/rp2040/hardware_regs /Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/src/rp2_common/cmsis /Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/src/rp2040/hardware_regs /Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/src/rp2_common/cmsis /Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/src/rp2040/hardware_regs /Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/src/rp2_common/cmsis /Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/src/rp2040/hardware_regs"
 		},
 		{
 			"name" : "PICO_DOXYGEN_PATHS",
@@ -1815,7 +1815,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/josefvagner/Documents/CRS/rpi_lora/build"
+			"value" : "/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build"
 		},
 		{
 			"name" : "blink_IS_TOP_LEVEL",
@@ -1863,7 +1863,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/josefvagner/Documents/CRS/rpi_lora/build/pico-sdk"
+			"value" : "/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pico-sdk"
 		},
 		{
 			"name" : "pico_sdk_IS_TOP_LEVEL",

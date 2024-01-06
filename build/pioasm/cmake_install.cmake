@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/josefvagner/Documents/CRS/rpi_lora/build/pioasm/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pioasm/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

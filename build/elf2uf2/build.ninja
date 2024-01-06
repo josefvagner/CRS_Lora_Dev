@@ -34,7 +34,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/josefvagner/Documents/CRS/rpi_lora/build/elf2uf2/
+cmake_ninja_workdir = /Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/elf2uf2/
 # =============================================================================
 # Object build statements for EXECUTABLE target elf2uf2
 
@@ -75,7 +75,7 @@ build elf2uf2: CXX_EXECUTABLE_LINKER__elf2uf2_ CMakeFiles/elf2uf2.dir/main.cpp.o
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/josefvagner/Documents/CRS/rpi_lora/build/elf2uf2 && /opt/homebrew/Cellar/cmake/3.28.1/bin/ccmake -S/Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/tools/elf2uf2 -B/Users/josefvagner/Documents/CRS/rpi_lora/build/elf2uf2
+  COMMAND = cd /Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/elf2uf2 && /opt/homebrew/Cellar/cmake/3.28.1/bin/ccmake -S/Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/tools/elf2uf2 -B/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/elf2uf2
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -87,7 +87,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/josefvagner/Documents/CRS/rpi_lora/build/elf2uf2 && /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake --regenerate-during-build -S/Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/tools/elf2uf2 -B/Users/josefvagner/Documents/CRS/rpi_lora/build/elf2uf2
+  COMMAND = cd /Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/elf2uf2 && /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake --regenerate-during-build -S/Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/tools/elf2uf2 -B/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/elf2uf2
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -104,7 +104,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build boot_uf2_headers/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/josefvagner/Documents/CRS/rpi_lora/build/elf2uf2/boot_uf2_headers && /opt/homebrew/Cellar/cmake/3.28.1/bin/ccmake -S/Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/tools/elf2uf2 -B/Users/josefvagner/Documents/CRS/rpi_lora/build/elf2uf2
+  COMMAND = cd /Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/elf2uf2/boot_uf2_headers && /opt/homebrew/Cellar/cmake/3.28.1/bin/ccmake -S/Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/tools/elf2uf2 -B/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/elf2uf2
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -116,7 +116,7 @@ build boot_uf2_headers/edit_cache: phony boot_uf2_headers/CMakeFiles/edit_cache.
 # Utility command for rebuild_cache
 
 build boot_uf2_headers/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/josefvagner/Documents/CRS/rpi_lora/build/elf2uf2/boot_uf2_headers && /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake --regenerate-during-build -S/Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/tools/elf2uf2 -B/Users/josefvagner/Documents/CRS/rpi_lora/build/elf2uf2
+  COMMAND = cd /Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/elf2uf2/boot_uf2_headers && /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake --regenerate-during-build -S/Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/tools/elf2uf2 -B/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/elf2uf2
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -132,14 +132,14 @@ build boot_uf2_headers/rebuild_cache: phony boot_uf2_headers/CMakeFiles/rebuild_
 # =============================================================================
 
 #############################################
-# Folder: /Users/josefvagner/Documents/CRS/rpi_lora/build/elf2uf2
+# Folder: /Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/elf2uf2
 
 build all: phony elf2uf2 boot_uf2_headers/all
 
 # =============================================================================
 
 #############################################
-# Folder: /Users/josefvagner/Documents/CRS/rpi_lora/build/elf2uf2/boot_uf2_headers
+# Folder: /Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/elf2uf2/boot_uf2_headers
 
 build boot_uf2_headers/all: phony
 

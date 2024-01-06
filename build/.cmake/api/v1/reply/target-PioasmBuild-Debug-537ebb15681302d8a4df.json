@@ -129,61 +129,61 @@
 		{
 			"backtrace" : 11,
 			"isGenerated" : true,
-			"path" : "build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild",
+			"path" : "/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.rule",
+			"path" : "/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild-complete.rule",
+			"path" : "/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild-complete.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule",
+			"path" : "/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule",
+			"path" : "/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule",
+			"path" : "/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule",
+			"path" : "/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule",
+			"path" : "/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule",
+			"path" : "/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule",
+			"path" : "/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

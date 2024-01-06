@@ -1,4 +1,4 @@
-// Padded and checksummed version of: /Users/josefvagner/Documents/CRS/rpi_lora/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: /Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

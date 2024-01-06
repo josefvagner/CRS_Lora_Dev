@@ -5,18 +5,18 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "/Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/tools/elf2uf2"
-  "/Users/josefvagner/Documents/CRS/rpi_lora/build/elf2uf2"
-  "/Users/josefvagner/Documents/CRS/rpi_lora/build/elf2uf2"
-  "/Users/josefvagner/Documents/CRS/rpi_lora/build/elf2uf2/tmp"
-  "/Users/josefvagner/Documents/CRS/rpi_lora/build/elf2uf2/src/ELF2UF2Build-stamp"
-  "/Users/josefvagner/Documents/CRS/rpi_lora/build/elf2uf2/src"
-  "/Users/josefvagner/Documents/CRS/rpi_lora/build/elf2uf2/src/ELF2UF2Build-stamp"
+  "/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/elf2uf2"
+  "/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/elf2uf2"
+  "/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/elf2uf2/tmp"
+  "/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/elf2uf2/src/ELF2UF2Build-stamp"
+  "/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/elf2uf2/src"
+  "/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/elf2uf2/src/ELF2UF2Build-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/josefvagner/Documents/CRS/rpi_lora/build/elf2uf2/src/ELF2UF2Build-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/elf2uf2/src/ELF2UF2Build-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/josefvagner/Documents/CRS/rpi_lora/build/elf2uf2/src/ELF2UF2Build-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/elf2uf2/src/ELF2UF2Build-stamp${cfgdir}") # cfgdir has leading slash
 endif()

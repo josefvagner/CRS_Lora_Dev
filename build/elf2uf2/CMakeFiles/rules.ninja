@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake --regenerate-during-build -S/Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/tools/elf2uf2 -B/Users/josefvagner/Documents/CRS/rpi_lora/build/elf2uf2
+  command = /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake --regenerate-during-build -S/Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/tools/elf2uf2 -B/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build/elf2uf2
   description = Re-running CMake...
   generator = 1
 

@@ -1165,7 +1165,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ELF2UF2Build::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ELF2UF2Build-Debug-edb18527b863c1dc1c21.json",
+					"jsonFile" : "target-ELF2UF2Build-Debug-29cd43fd84c47a4f39bd.json",
 					"name" : "ELF2UF2Build",
 					"projectIndex" : 0
 				},
@@ -1179,56 +1179,56 @@
 				{
 					"directoryIndex" : 62,
 					"id" : "PioasmBuild::@36e52159cb4e937c58c5",
-					"jsonFile" : "target-PioasmBuild-Debug-faf7c1bffe023f28f3d5.json",
+					"jsonFile" : "target-PioasmBuild-Debug-537ebb15681302d8a4df.json",
 					"name" : "PioasmBuild",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "blink::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-blink-Debug-7a4150c73c7dbbe92c61.json",
+					"jsonFile" : "target-blink-Debug-6fbac30e0bf66359b01a.json",
 					"name" : "blink",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 44,
 					"id" : "bs2_default::@bc554eaed616d198a22d",
-					"jsonFile" : "target-bs2_default-Debug-c3d9e8f6f167c2a0f66e.json",
+					"jsonFile" : "target-bs2_default-Debug-4f8e5c33142399bf60f5.json",
 					"name" : "bs2_default",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 44,
 					"id" : "bs2_default_bin::@bc554eaed616d198a22d",
-					"jsonFile" : "target-bs2_default_bin-Debug-28298ed5b4fe2dac1ebf.json",
+					"jsonFile" : "target-bs2_default_bin-Debug-8baa4b982ce4c3580cb9.json",
 					"name" : "bs2_default_bin",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 44,
 					"id" : "bs2_default_padded_checksummed_asm::@bc554eaed616d198a22d",
-					"jsonFile" : "target-bs2_default_padded_checksummed_asm-Debug-d2b18944f4ea03eac09f.json",
+					"jsonFile" : "target-bs2_default_padded_checksummed_asm-Debug-a0338c9f245760a17f6e.json",
 					"name" : "bs2_default_padded_checksummed_asm",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 67,
 					"id" : "cyw43_driver_picow_cyw43_bus_pio_spi_pio_h::@c2fb4f534018e64680d5",
-					"jsonFile" : "target-cyw43_driver_picow_cyw43_bus_pio_spi_pio_h-Debug-7717e39d6f4d63d767d5.json",
+					"jsonFile" : "target-cyw43_driver_picow_cyw43_bus_pio_spi_pio_h-Debug-4f0b14cfcd1c99a431c2.json",
 					"name" : "cyw43_driver_picow_cyw43_bus_pio_spi_pio_h",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 62,
 					"id" : "tinyusb_pico_pio_usb_usb_rx_pio_h::@36e52159cb4e937c58c5",
-					"jsonFile" : "target-tinyusb_pico_pio_usb_usb_rx_pio_h-Debug-4f656f9fa6d1a97e9235.json",
+					"jsonFile" : "target-tinyusb_pico_pio_usb_usb_rx_pio_h-Debug-98ea2fbca0a0af62cb43.json",
 					"name" : "tinyusb_pico_pio_usb_usb_rx_pio_h",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 62,
 					"id" : "tinyusb_pico_pio_usb_usb_tx_pio_h::@36e52159cb4e937c58c5",
-					"jsonFile" : "target-tinyusb_pico_pio_usb_usb_tx_pio_h-Debug-96ac1b0e682f7bef060e.json",
+					"jsonFile" : "target-tinyusb_pico_pio_usb_usb_tx_pio_h-Debug-7452e2a20c8ceb02b8e4.json",
 					"name" : "tinyusb_pico_pio_usb_usb_tx_pio_h",
 					"projectIndex" : 2
 				}
@@ -1238,7 +1238,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/josefvagner/Documents/CRS/rpi_lora/build",
+		"build" : "/Users/josefvagner/Documents/CRS/CRS_Lora_Dev/build",
 		"source" : "/Users/josefvagner/Documents/CRS/rpi_lora"
 	},
 	"version" : 
