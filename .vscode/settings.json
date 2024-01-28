@@ -1,15 +1,16 @@
 {
-    "cmake.sourceDirectory": "/Users/josefvagner/Documents/CRS/rpi_lora",
-    "cmake.buildEnvironment": {
-        "FREERTOS_KERNEL_PATH": "/Users/josefvagner/Documents/CRS/rpi_lora/FreeRTOS-Kernel",
-        "PICO_SDK_PATH": "/Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk"
-    },
-    "cmake.configureEnvironment": {
-        "FREERTOS_KERNEL_PATH": "/Users/josefvagner/Documents/CRS/rpi_lora/FreeRTOS-Kernel",
-        "PICO_SDK_PATH": "/Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk"
-    },
-    "files.associations": {
-        "cstdint": "c"
-    },
-    "C_Cpp.errorSquiggles": "disabled"
+  "cmake.sourceDirectory": "/Users/josefvagner/Documents/CRS/rpi_lora",
+  "cmake.buildEnvironment": {
+    "FREERTOS_KERNEL_PATH": "/Users/josefvagner/Documents/CRS/rpi_lora/FreeRTOS-Kernel",
+    "PICO_SDK_PATH": "/Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk"
+  },
+  "cmake.configureEnvironment": {
+    "FREERTOS_KERNEL_PATH": "/Users/josefvagner/Documents/CRS/rpi_lora/FreeRTOS-Kernel",
+    "PICO_SDK_PATH": "/Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk"
+  },
+  "files.associations": {
+    "cstdint": "c",
+    "compare": "c"
+  },
+  "C_Cpp.errorSquiggles": "disabled"
 }

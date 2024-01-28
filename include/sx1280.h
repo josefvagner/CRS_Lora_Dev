@@ -16,12 +16,12 @@
 #define RX_BASE_ADDR 0x00
 #define TX_BASE_ADDR 0x80
 
-#define PACKET_LEN 126
+#define DF_PACKET_LEN 126
 
-#define PREAMBLE_LENGTH 0x0C
-#define HEADER_TYPE 0x00
-#define CYCLICAL_REDUNDANCY_CHECK 0x20
-#define CHIRP_INVERT 0x40
+#define DF_PREAMBLE_LENGTH 0x0C
+#define DF_HEADER_TYPE 0x00
+#define DF_CYCLICAL_REDUNDANCY_CHECK 0x20
+#define DF_CHIRP_INVERT 0x40
 
 /* ------------ Defining SD Card Command Index with Hexadecimel Commands ------------ */
 
@@ -32,10 +32,10 @@
     params( void ) return( status ) */
 #define GET_STATUS 0xC0
 
-/*  Writes a block of bytes in a data memory space starting 
+/*  Writes a block of bytes in a data memory space starting
         at a specific address.
     params( address[15:8], address[7:0], data[0:n] ) return( void ) */
-#define WRITE_REGISTER 0x18 
+#define WRITE_REGISTER 0x18
 
 /*  Reads a block of data starting at a given address
     The host must send a NOP after the address to receive data!!!!!!!!!!!!!!!
@@ -48,7 +48,7 @@
     params( offset, data[0:n] ) return( void ) */
 #define WRITE_BUFFER 0x1A
 
-/*  Function allows reading (n-3) bytes of payload received 
+/*  Function allows reading (n-3) bytes of payload received
         starting at offset.
     Data received in hex, most likely translated using ascii for text
     params( offset ) return( data[0:n-1] ) */
@@ -57,13 +57,13 @@
 /*  Set transceiver to Sleep mode
     Lowest current consumption
     params( sleepConfig ) return( void )
-    sleepConfig[7:4] unused 
+    sleepConfig[7:4] unused
     sleepConfig[1] 1: Data buffer in retention mode
     sleepConfig[0] 0: Data Ram is flushed 1: Data Ram in retention  */
 #define SET_SLEEP 0x84
 
 /*  Set the device in either STDBY_RC or STDBY_XOSC mode
-    Used to configure the transceiver 
+    Used to configure the transceiver
     Intermediate levels of power consumption
     params( standbyConfig )
     standbyConfig 0: STDBY_RC mode 1: STDBY_XOSC mode
@@ -86,10 +86,10 @@
 #define SET_TX 0x83
 
 /*  Set the device in Receiver mode
-    Timeout = periodBase * periodBaseCount 
+    Timeout = periodBase * periodBaseCount
     params( periodBase, periodBaseCount[15:8], periodBaseCount[7:0] )
     periodBase 0x00: 15.625us 0x01: 62.5us 0x02: 1ms 0x03: 4ms
-    periodBaseCount[15:0] 0x0000: No Time Out 
+    periodBaseCount[15:0] 0x0000: No Time Out
                           0xFFFF: Rx Continuous mode, multi-packet Rx
                           Other: Time out active
     return( void ) */
@@ -99,13 +99,13 @@
     setLongPreamble must be issued prior to setRxDutyCycle
     RxPeriod = periodBase * rxPeriodBaseCount
     SleepPeriod = periodBase * sleepPeriodBaseCount
-    params( rxPeriodBase, rxPeriodBaseCount[15:8], 
+    params( rxPeriodBase, rxPeriodBaseCount[15:8],
         rxPeriodBaseCount[7:0], sleepPeriodBase,
         sleepPeriodBaseCount[15:8], sleepPeriodBaseCount[7:0] )
     periodBase 0x00: 15.625us 0x01: 62.5us 0x02: 1ms 0x03: 4ms
-    periodBaseCount[15:0] 0x0000: No Time Out 
-                          Other: Device will stay in Rx Mode for 
-                                 RxPeriod and return 
+    periodBaseCount[15:0] 0x0000: No Time Out
+                          Other: Device will stay in Rx Mode for
+                                 RxPeriod and return
                                  to Sleep Mode for SleepPeriod
     return( void ) */
 #define SET_RX_DUTY_CYCLE 0x94
@@ -125,14 +125,14 @@
 
 /*  Test command to generate infinite sequence pf symbol 0 in Lora
     params( void ) return( void ) */
-#define SET_TX_CONTINuOUS_PREAMBLE 0xD2
+#define SET_TX_CONTINUOUS_PREAMBLE 0xD2
 
 /*  Sets the transceiver radio frame
     MUST BE THE FIRST IN A RADIO CONFIGURATION SEQUENCE!!!!!!!
     params( packetType )
     packetType[8:0] 0x00: GFSK
-                    0x01: Lora 
-                    0x02: Ranging 
+                    0x01: Lora
+                    0x02: Ranging
                     0x03: FLRC
                     0x04: BLE
     return( void ) */
@@ -154,7 +154,7 @@
 /*  Sets the Tx output power and the Tx ramp time
     params( power, rampTime )
     power  Pout[dB] = -18 + power i.e. -18 + 0x1F(31) = 13dbm
-    rampTime 0x00: 2um 0x20: 4us 0x40: 5us 0x60: 8us 
+    rampTime 0x00: 2um 0x20: 4us 0x40: 5us 0x60: 8us
             0x80: 10us 0xA0: 12us 0xC0: 16us 0xE0: 20us
     return( void ) */
 #define SET_TX_PARAMS 0x8E
@@ -177,7 +177,7 @@
 
 /*  Configure the modulation parameters of the radio
     Params passed will be interpreted depending on the frame type
-    Frame Type 
+    Frame Type
     params( modParam1, modParam2, modParam3 )
     modParam1 BLE: BitrateBandwidth   Lora/Ranging: Spreading Factor
     modParam2 BLE: ModulationIndex    Lora/Ranging: Bandwith
@@ -195,10 +195,10 @@
     packetParam5 BLE: Not Used     Lora/Ranging: InvertIQ/chirp invert
     packetParam6 BLE: Not Used        Lora/Ranging: Not Used
     packetParam7 BLE: Not Used        Lora/Ranging: not Used
-    return( void ) */ 
+    return( void ) */
 #define SET_PACKET_PARAMS 0x8C
 
-/*  Returns the length of the last received packet 
+/*  Returns the length of the last received packet
         and the address of the first byte received
     In Lora packet type, 0x00 always returned for rxPayloadLength.
         Instead read register 0x901, for Lora payload length
@@ -208,13 +208,13 @@
 /*  Retrieve information about the last received packet
     rssiSync: RSSI value latched upon  detection of sync address.
         Actual signal power is –(rssiSync)/2dBm
-    snr: Estimation of Signal to Noise Ratio on last packet received. 
-        In two’s compliment format multiplied by 4. 
-        Actual Signal to Noise Ratio(SNR) is (snr)/4dB. If SNR ≤ 0, 
+    snr: Estimation of Signal to Noise Ratio on last packet received.
+        In two’s compliment format multiplied by 4.
+        Actual Signal to Noise Ratio(SNR) is (snr)/4dB. If SNR ≤ 0,
         RSSI_{packet, real} = RSSI_{packet,measured} – SNR_{measured}
-    params( void ) 
+    params( void )
     return( packetStatus[39:32], packetStatus[31:24],
-        packetStatus[23:16], packetStatus[15:8], packetStatus[7:0] ) 
+        packetStatus[23:16], packetStatus[15:8], packetStatus[7:0] )
     packetStatus[7:0]   BLE: RFU        Lora/Ranging: rssiSync
     packetStatus[15:8]  BLE: rssiSync   Lora/Ranging: snr
     packetStatus[16:23] BLE: errors     Lora/Ranging: -
@@ -228,9 +228,9 @@
 #define GET_RSSI_LNST 0x1F
 
 /*  Enable IRQs and to route IRQs to DIO pins
-    An interrupt is flagged in IRQ register if the corresponding 
+    An interrupt is flagged in IRQ register if the corresponding
         bit in flag register is set
-    irqMask[15:0] set which IRQ's are active, 
+    irqMask[15:0] set which IRQ's are active,
         pg 95 in sx1280 manual has IRQ table
     dioMasks active bits correspond to the active bits irqMasks
         If coresponding bits are both on, IRQ is sent through that DIO
@@ -263,7 +263,7 @@
     params( 0x00=disable or 0x01=enable ) return( void ) */
 #define SET_AUTO_FS 0x9E
 
-/*  Allows transceiver to send a packet at a user programmable time 
+/*  Allows transceiver to send a packet at a user programmable time
         after the end of a packet reception
     Must be issued in STDBY_RC mode
     TxDelay = time + 33us(time needed for transceiver to switch modes)
@@ -278,7 +278,7 @@
     return( void ) */
 #define SET_LONG_PREAMBLE 0x9B
 
-/* #define SETUARTSPEED 0x9D, using spi not uart interface */
+#define SET_UART_SPEED 0x9D
 
 /*  params( 0x00=slave or 0x01=master ) return( void ) */
 #define SET_RANGING_ROLE 0xA3
@@ -286,19 +286,19 @@
 /* params( 0x00=slave or 0x01=master ) return( void ) */
 #define SET_ADVANCED_RANGING 0x9A
 
+#define SET_PERF_COUNTER_MODE 0x9C
 
 typedef struct Buffer
 {
     uint8_t *data;
     size_t len;
 
-}buff_t;
-
+} buff_t;
 
 void spiSend(buff_t buff);
 buff_t spiSendRecv(buff_t buff, size_t responseLen);
 
-void SetPacketLen(uint8_t packetLen);
+void myMemcpy(void *dest, void *src, size_t n);
 
 uint8_t GetStatus();
 void WriteRegister(uint16_t addr, buff_t buff);
@@ -321,7 +321,7 @@ void SetTxParams(uint8_t power, uint8_t rampTime);
 void SetCadParams(uint8_t cadSymbolNum);
 void SetBufferBaseAddress(uint8_t txBaseAddress, uint8_t rxBaseAddress);
 void SetModulationParams(uint8_t modParam[3]);
-// void SetPacketParams(uint8_t packetParam[7]);
+void SetPacketParams(uint8_t packetParams[7]);
 buff_t GetRxBufferStatus();
 buff_t GetPacketStatus();
 uint8_t GetRssiInst();
@@ -337,6 +337,5 @@ void SetLongPreamble(uint8_t enable);
 void SetUartSpeed(uint8_t uartSpeed);
 void SetRangingRole(uint8_t mode);
 void SetAdvancedRanging(uint8_t state);
-
 
 #endif /* SX1280_H */

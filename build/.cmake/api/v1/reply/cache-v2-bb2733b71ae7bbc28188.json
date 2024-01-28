@@ -1539,7 +1539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " /Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/src/rp2_common/cmsis /Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/src/rp2040/hardware_regs /Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/src/rp2_common/cmsis /Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/src/rp2040/hardware_regs /Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/src/rp2_common/cmsis /Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/src/rp2040/hardware_regs /Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/src/rp2_common/cmsis /Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/src/rp2040/hardware_regs"
+			"value" : " /Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/src/rp2_common/cmsis /Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/src/rp2040/hardware_regs /Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/src/rp2_common/cmsis /Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/src/rp2040/hardware_regs /Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/src/rp2_common/cmsis /Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/src/rp2040/hardware_regs /Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/src/rp2_common/cmsis /Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/src/rp2040/hardware_regs /Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/src/rp2_common/cmsis /Users/josefvagner/Documents/CRS/rpi_lora/pico-sdk/src/rp2040/hardware_regs"
 		},
 		{
 			"name" : "PICO_DOXYGEN_PATHS",
